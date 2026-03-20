@@ -1,0 +1,72 @@
+.App {
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+  color: #22223b;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #3a86ff 0%, #8338ec 100%);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+}
+.nav-link {
+  color: #f1faee !important;
+  font-size: 1.1rem;
+}
+.nav-link.active {
+  color: #ffbe0b !important;
+}
+.card-header {
+  background: #3a86ff !important;
+  color: #fff !important;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(58,134,255,0.1);
+  border-radius: 12px;
+}
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table-dark th {
+  background: #8338ec !important;
+  color: #fff !important;
+}
+.btn-success {
+  background: #ffbe0b;
+  border: none;
+  color: #22223b;
+  font-weight: bold;
+}
+.btn-success:hover {
+  background: #fb5607;
+  color: #fff;
+}
+.h4, h2 {
+  color: #3a86ff;
+  font-weight: bold;
+}
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  float: left;
+}
+.App-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 24px 0;
+}
+.App-link {
+  color: #8338ec;
+  font-weight: bold;
+}
+.modal-content {
+  border-radius: 16px;
+}
+.form-control {
+  border-radius: 8px;
+}
